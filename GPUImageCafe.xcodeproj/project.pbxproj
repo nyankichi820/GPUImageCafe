@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F8DE0AC19572F6F00A562C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8DE0AB19572F6F00A562C2 /* Foundation.framework */; };
+		7F8DE0AE19572F6F00A562C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8DE0AD19572F6F00A562C2 /* CoreGraphics.framework */; };
+		7F8DE0B019572F6F00A562C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8DE0AF19572F6F00A562C2 /* UIKit.framework */; };
+		7F8DE0B619572F6F00A562C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F8DE0B419572F6F00A562C2 /* InfoPlist.strings */; };
+		7F8DE0B819572F6F00A562C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8DE0B719572F6F00A562C2 /* main.m */; };
+		7F8DE0BC19572F6F00A562C2 /* GUCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8DE0BB19572F6F00A562C2 /* GUCAppDelegate.m */; };
+		7F8DE0BF19572F6F00A562C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8DE0BD19572F6F00A562C2 /* Main.storyboard */; };
+		7F8DE0C219572F6F00A562C2 /* GUCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8DE0C119572F6F00A562C2 /* GUCViewController.m */; };
+		7F8DE0C419572F6F00A562C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8DE0C319572F6F00A562C2 /* Images.xcassets */; };
+		7F8DE0CB19572F6F00A562C2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8DE0CA19572F6F00A562C2 /* XCTest.framework */; };
+		7F8DE0CC19572F6F00A562C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8DE0AB19572F6F00A562C2 /* Foundation.framework */; };
+		7F8DE0CD19572F6F00A562C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8DE0AF19572F6F00A562C2 /* UIKit.framework */; };
+		7F8DE0D519572F6F00A562C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F8DE0D319572F6F00A562C2 /* InfoPlist.strings */; };
+		7F8DE0D719572F6F00A562C2 /* GPUImageCafeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8DE0D619572F6F00A562C2 /* GPUImageCafeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F8DE0CE19572F6F00A562C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F8DE0A019572F6F00A562C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F8DE0A719572F6F00A562C2;
+			remoteInfo = GPUImageCafe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F8DE0A819572F6F00A562C2 /* GPUImageCafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPUImageCafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F8DE0AB19572F6F00A562C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7F8DE0AD19572F6F00A562C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7F8DE0AF19572F6F00A562C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7F8DE0B319572F6F00A562C2 /* GPUImageCafe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPUImageCafe-Info.plist"; sourceTree = "<group>"; };
+		7F8DE0B519572F6F00A562C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F8DE0B719572F6F00A562C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F8DE0B919572F6F00A562C2 /* GPUImageCafe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPUImageCafe-Prefix.pch"; sourceTree = "<group>"; };
+		7F8DE0BA19572F6F00A562C2 /* GUCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUCAppDelegate.h; sourceTree = "<group>"; };
+		7F8DE0BB19572F6F00A562C2 /* GUCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUCAppDelegate.m; sourceTree = "<group>"; };
+		7F8DE0BE19572F6F00A562C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F8DE0C019572F6F00A562C2 /* GUCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GUCViewController.h; sourceTree = "<group>"; };
+		7F8DE0C119572F6F00A562C2 /* GUCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GUCViewController.m; sourceTree = "<group>"; };
+		7F8DE0C319572F6F00A562C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7F8DE0C919572F6F00A562C2 /* GPUImageCafeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPUImageCafeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F8DE0CA19572F6F00A562C2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7F8DE0D219572F6F00A562C2 /* GPUImageCafeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPUImageCafeTests-Info.plist"; sourceTree = "<group>"; };
+		7F8DE0D419572F6F00A562C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F8DE0D619572F6F00A562C2 /* GPUImageCafeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPUImageCafeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F8DE0A519572F6F00A562C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8DE0AE19572F6F00A562C2 /* CoreGraphics.framework in Frameworks */,
+				7F8DE0B019572F6F00A562C2 /* UIKit.framework in Frameworks */,
+				7F8DE0AC19572F6F00A562C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8DE0C619572F6F00A562C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8DE0CB19572F6F00A562C2 /* XCTest.framework in Frameworks */,
+				7F8DE0CD19572F6F00A562C2 /* UIKit.framework in Frameworks */,
+				7F8DE0CC19572F6F00A562C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F8DE09F19572F6F00A562C2 = {
+			isa = PBXGroup;
+			children = (
+				7F8DE0B119572F6F00A562C2 /* GPUImageCafe */,
+				7F8DE0D019572F6F00A562C2 /* GPUImageCafeTests */,
+				7F8DE0AA19572F6F00A562C2 /* Frameworks */,
+				7F8DE0A919572F6F00A562C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F8DE0A919572F6F00A562C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F8DE0A819572F6F00A562C2 /* GPUImageCafe.app */,
+				7F8DE0C919572F6F00A562C2 /* GPUImageCafeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F8DE0AA19572F6F00A562C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F8DE0AB19572F6F00A562C2 /* Foundation.framework */,
+				7F8DE0AD19572F6F00A562C2 /* CoreGraphics.framework */,
+				7F8DE0AF19572F6F00A562C2 /* UIKit.framework */,
+				7F8DE0CA19572F6F00A562C2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F8DE0B119572F6F00A562C2 /* GPUImageCafe */ = {
+			isa = PBXGroup;
+			children = (
+				7F8DE0BA19572F6F00A562C2 /* GUCAppDelegate.h */,
+				7F8DE0BB19572F6F00A562C2 /* GUCAppDelegate.m */,
+				7F8DE0BD19572F6F00A562C2 /* Main.storyboard */,
+				7F8DE0C019572F6F00A562C2 /* GUCViewController.h */,
+				7F8DE0C119572F6F00A562C2 /* GUCViewController.m */,
+				7F8DE0C319572F6F00A562C2 /* Images.xcassets */,
+				7F8DE0B219572F6F00A562C2 /* Supporting Files */,
+			);
+			path = GPUImageCafe;
+			sourceTree = "<group>";
+		};
+		7F8DE0B219572F6F00A562C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F8DE0B319572F6F00A562C2 /* GPUImageCafe-Info.plist */,
+				7F8DE0B419572F6F00A562C2 /* InfoPlist.strings */,
+				7F8DE0B719572F6F00A562C2 /* main.m */,
+				7F8DE0B919572F6F00A562C2 /* GPUImageCafe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F8DE0D019572F6F00A562C2 /* GPUImageCafeTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F8DE0D619572F6F00A562C2 /* GPUImageCafeTests.m */,
+				7F8DE0D119572F6F00A562C2 /* Supporting Files */,
+			);
+			path = GPUImageCafeTests;
+			sourceTree = "<group>";
+		};
+		7F8DE0D119572F6F00A562C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F8DE0D219572F6F00A562C2 /* GPUImageCafeTests-Info.plist */,
+				7F8DE0D319572F6F00A562C2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F8DE0A719572F6F00A562C2 /* GPUImageCafe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F8DE0DA19572F6F00A562C2 /* Build configuration list for PBXNativeTarget "GPUImageCafe" */;
+			buildPhases = (
+				7F8DE0A419572F6F00A562C2 /* Sources */,
+				7F8DE0A519572F6F00A562C2 /* Frameworks */,
+				7F8DE0A619572F6F00A562C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPUImageCafe;
+			productName = GPUImageCafe;
+			productReference = 7F8DE0A819572F6F00A562C2 /* GPUImageCafe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F8DE0C819572F6F00A562C2 /* GPUImageCafeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F8DE0DD19572F6F00A562C2 /* Build configuration list for PBXNativeTarget "GPUImageCafeTests" */;
+			buildPhases = (
+				7F8DE0C519572F6F00A562C2 /* Sources */,
+				7F8DE0C619572F6F00A562C2 /* Frameworks */,
+				7F8DE0C719572F6F00A562C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F8DE0CF19572F6F00A562C2 /* PBXTargetDependency */,
+			);
+			name = GPUImageCafeTests;
+			productName = GPUImageCafeTests;
+			productReference = 7F8DE0C919572F6F00A562C2 /* GPUImageCafeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F8DE0A019572F6F00A562C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GUC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "masafumi yoshida";
+				TargetAttributes = {
+					7F8DE0C819572F6F00A562C2 = {
+						TestTargetID = 7F8DE0A719572F6F00A562C2;
+					};
+				};
+			};
+			buildConfigurationList = 7F8DE0A319572F6F00A562C2 /* Build configuration list for PBXProject "GPUImageCafe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F8DE09F19572F6F00A562C2;
+			productRefGroup = 7F8DE0A919572F6F00A562C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F8DE0A719572F6F00A562C2 /* GPUImageCafe */,
+				7F8DE0C819572F6F00A562C2 /* GPUImageCafeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F8DE0A619572F6F00A562C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8DE0C419572F6F00A562C2 /* Images.xcassets in Resources */,
+				7F8DE0B619572F6F00A562C2 /* InfoPlist.strings in Resources */,
+				7F8DE0BF19572F6F00A562C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8DE0C719572F6F00A562C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8DE0D519572F6F00A562C2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F8DE0A419572F6F00A562C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8DE0BC19572F6F00A562C2 /* GUCAppDelegate.m in Sources */,
+				7F8DE0B819572F6F00A562C2 /* main.m in Sources */,
+				7F8DE0C219572F6F00A562C2 /* GUCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8DE0C519572F6F00A562C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8DE0D719572F6F00A562C2 /* GPUImageCafeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F8DE0CF19572F6F00A562C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F8DE0A719572F6F00A562C2 /* GPUImageCafe */;
+			targetProxy = 7F8DE0CE19572F6F00A562C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F8DE0B419572F6F00A562C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F8DE0B519572F6F00A562C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7F8DE0BD19572F6F00A562C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F8DE0BE19572F6F00A562C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F8DE0D319572F6F00A562C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F8DE0D419572F6F00A562C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F8DE0D819572F6F00A562C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7F8DE0D919572F6F00A562C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F8DE0DB19572F6F00A562C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPUImageCafe/GPUImageCafe-Prefix.pch";
+				INFOPLIST_FILE = "GPUImageCafe/GPUImageCafe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7F8DE0DC19572F6F00A562C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPUImageCafe/GPUImageCafe-Prefix.pch";
+				INFOPLIST_FILE = "GPUImageCafe/GPUImageCafe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7F8DE0DE19572F6F00A562C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GPUImageCafe.app/GPUImageCafe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPUImageCafe/GPUImageCafe-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GPUImageCafeTests/GPUImageCafeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7F8DE0DF19572F6F00A562C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GPUImageCafe.app/GPUImageCafe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPUImageCafe/GPUImageCafe-Prefix.pch";
+				INFOPLIST_FILE = "GPUImageCafeTests/GPUImageCafeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F8DE0A319572F6F00A562C2 /* Build configuration list for PBXProject "GPUImageCafe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F8DE0D819572F6F00A562C2 /* Debug */,
+				7F8DE0D919572F6F00A562C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F8DE0DA19572F6F00A562C2 /* Build configuration list for PBXNativeTarget "GPUImageCafe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F8DE0DB19572F6F00A562C2 /* Debug */,
+				7F8DE0DC19572F6F00A562C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F8DE0DD19572F6F00A562C2 /* Build configuration list for PBXNativeTarget "GPUImageCafeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F8DE0DE19572F6F00A562C2 /* Debug */,
+				7F8DE0DF19572F6F00A562C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F8DE0A019572F6F00A562C2 /* Project object */;
+}
