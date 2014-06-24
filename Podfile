@@ -1,0 +1,8 @@
+platform :ios,'7.0'
+pod 'AFNetworking' 
+pod 'DejalActivityView'
+pod 'GPUImage'
+pod 'UIImage-Categories'
+pod 'FrameAccessor'
+pod 'BlocksKit'
+pod 'SDWebImage' 
