@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface GUCEditFilterTableViewController : UITableViewController
-
+@property (strong, nonatomic) NSDictionary *filterParameter;
 @end

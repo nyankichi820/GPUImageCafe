@@ -19,8 +19,9 @@
 -(id)init{
     self = [super init];
     if(self){
-        NSURL *url = [NSURL URLWithString:@"https://github.com"];
+        NSURL *url = [NSURL URLWithString:@"https://raw.githubusercontent.com/"];
         self.client = [[AFHTTPRequestOperationManager alloc] initWithBaseURL:url];
+        self.client.responseSerializer.acceptableContentTypes = [[NSSet alloc] initWithObjects:@"text/plain", nil];
     }
     return self;
 }
@@ -53,7 +54,7 @@
     
    
     
-    [[self client] GET:@"/nyankichi820/GPUImageCafe/blob/master/Resources/filter.json"
+    [[self client] GET:@"/nyankichi820/GPUImageCafe/master/Resources/filter.json"
             parameters:nil
                success:^(AFHTTPRequestOperation *operation, id responseObject) {
                    complete(responseObject,nil);

@@ -35,6 +35,7 @@ PODS:
   - BlocksKit/UIKit (2.2.3):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
+  - Chains (0.1.0)
   - DejalActivityView (1.2)
   - FrameAccessor (1.3.2)
   - GPUImage (0.1.4)
@@ -46,6 +47,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking
   - BlocksKit
+  - Chains
   - DejalActivityView
   - FrameAccessor
   - GPUImage
@@ -55,6 +57,7 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   AFNetworking: 6d7b76aa5d04c8c37daad3eef4b7e3f2a7620da3
   BlocksKit: 07c8a80f04275efac6a5f8b973782489c083a182
+  Chains: c4ed906fa9dcbc38ac6259075886d263e14aecbc
   DejalActivityView: ef0970deefe891fefd57af27765ddb21a8265755
   FrameAccessor: 8bf7a2c66f86005ff9bcd1c9cbd0a3eb4970910b
   GPUImage: ac2bde5f4dbea02a81ced6313964cec1f2043ca9

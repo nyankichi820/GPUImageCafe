@@ -9,8 +9,11 @@
 #import "GUCFilterCollectionViewController.h"
 #import "GUCAPIClient.h"
 #import "GUCFilterCollectionViewCell.h"
-#import "GUCGPUImageFilterFactory.h"
+#import "MYGPUImageFilterFactory.h"
 #import <GPUImage/GPUImage.h>
+#import "GUCEditFilterViewController.h"
+#import "GUCUserFilterStore.h"
+
 @interface GUCFilterCollectionViewController ()
 @property(nonatomic,strong) GUCAPIClient  *client;
 @property(nonatomic,strong) NSArray  *filters;
@@ -31,11 +34,25 @@
 {
     [super viewDidLoad];
     
+    
+}
+
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    [self loadFilter];
+}
+
+-(void)loadFilter{
     self.client = [[GUCAPIClient alloc] init];
+    
+    
     __weak typeof(self) weakSelf = self;
     [self.client filter:^(id result, NSError *error) {
         if(!error){
-            weakSelf.filters = result;
+            NSMutableArray * filters = [NSMutableArray array];
+            [filters addObjectsFromArray:result];
+            [filters addObjectsFromArray:[GUCUserFilterStore shared].filters];
+            weakSelf.filters =  filters;
             [weakSelf.collectionView reloadData];
         }
         else{
@@ -62,7 +79,7 @@
     
     cell.filterNameLabel.text = [config objectForKey:@"name"];
     
-    GPUImageFilterGroup *filterGroup = [[[GUCGPUImageFilterFactory alloc] init] createFilterGroupWithArray:[config objectForKey:@"configs"]];
+    GPUImageFilterGroup *filterGroup = [[[MYGPUImageFilterFactory alloc] init] createFilterGroupWithArray:[config objectForKey:@"configs"]];
     
     
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0),^(){
@@ -78,12 +95,30 @@
 
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return self.filters.count;
+    return self.filters.count ;
     
 }
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
     return 1;
+}
+
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+    
+    if([segue.identifier isEqualToString:@"CopyFilter"]){
+        GUCEditFilterViewController *viewController = (GUCEditFilterViewController *)segue.destinationViewController;
+        
+        
+        NSIndexPath *indexPath = [[self.collectionView indexPathsForSelectedItems] firstObject];
+        NSDictionary *filterParameter =  [self.filters objectAtIndex:indexPath.row];
+        viewController.filterParameter =filterParameter;
+    }
+    
 }
 
 

@@ -40,11 +40,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GPUImageCafe/GUCEditFilterViewController.m"
-            timestampString = "425235452.29706"
+            timestampString = "425353797.834843"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "99"
-            endingLineNumber = "99"
+            startingLineNumber = "287"
+            endingLineNumber = "287"
             landmarkName = "-togglePreview:"
             landmarkType = "5">
             <Locations>
@@ -86,11 +86,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GPUImageCafe/GUCFilterCollectionViewController.m"
-            timestampString = "425265717.944946"
+            timestampString = "425321291.221188"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
             landmarkName = "-collectionView:cellForItemAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -102,12 +102,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GPUImageCafe/GUCFilterCollectionViewController.m"
-            timestampString = "425265717.944946"
+            timestampString = "425321291.221188"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "-viewDidLoad"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "-loadFilter"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -118,12 +118,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GPUImageCafe/GUCFilterCollectionViewController.m"
-            timestampString = "425265717.944946"
+            timestampString = "425321291.221188"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "-viewDidLoad"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "-loadFilter"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -134,12 +134,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GPUImageCafe/GUCFilterCollectionViewController.m"
-            timestampString = "425265717.944946"
+            timestampString = "425321291.221188"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "-viewDidLoad"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "-loadFilter"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -150,12 +150,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GPUImageCafe/GUCFilterCollectionViewController.m"
-            timestampString = "425265717.944946"
+            timestampString = "425321291.221188"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
-            landmarkName = "-viewDidLoad"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "-loadFilter"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -166,12 +166,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GPUImageCafe/GUCFilterCollectionViewController.m"
-            timestampString = "425265717.944946"
+            timestampString = "425321291.221188"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "-viewDidLoad"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "-loadFilter"
             landmarkType = "5">
             <Locations>
                <Location
@@ -212,12 +212,154 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GPUImageCafe/GUCFilterCollectionViewController.m"
-            timestampString = "425266259.841292"
+            timestampString = "425321291.221188"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
             landmarkName = "-collectionView:cellForItemAtIndexPath:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[GUCFilterCollectionViewController collectionView:cellForItemAtIndexPath:]"
+                  moduleName = "GPUImageCafe"
+                  urlString = "file:///Users/masafumi/Documents/GPUImageCafe/GPUImageCafe/GUCFilterCollectionViewController.m"
+                  timestampString = "425317677.795838"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "398">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__75-[GUCFilterCollectionViewController collectionView:cellForItemAtIndexPath:]_block_invoke"
+                  moduleName = "GPUImageCafe"
+                  urlString = "file:///Users/masafumi/Documents/GPUImageCafe/GPUImageCafe/GUCFilterCollectionViewController.m"
+                  timestampString = "425317677.796141"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "50">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GPUImageCafe/GUCAPIClient.m"
+            timestampString = "425267130.227829"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "-filter:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GPUImageCafe/GUCEditFilterTableViewController.m"
+            timestampString = "425318096.2507"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "-initWithStyle:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GPUImageCafe/GUCEditFilterViewController.m"
+            timestampString = "425353797.834843"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "313"
+            endingLineNumber = "313"
+            landmarkName = "-prepareForSegue:sender:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GPUImageCafe/GUCEditFilterViewController.m"
+            timestampString = "425353384.618686"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "-viewWillLayoutSubviews"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GPUImageCafe/GUCEditFilterViewController.m"
+            timestampString = "425353797.834843"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "269"
+            endingLineNumber = "269"
+            landmarkName = "-applyFilter"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GPUImageCafe/GUCEditFilterViewController.m"
+            timestampString = "425353797.834843"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
+            landmarkName = "-saveFilter"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GPUImageCafe/GUCEditFilterViewController.m"
+            timestampString = "425353384.618686"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "-selectCompose:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

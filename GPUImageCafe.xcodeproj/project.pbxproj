@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		4CCFBA21AEA04F68BD32A8EA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A6B6E2270149F78F5DFF30 /* libPods.a */; };
-		7F06CBD219588F0C001C1754 /* sample_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F06CBD119588F0C001C1754 /* sample_1.jpg */; };
-		7F06CBD419588F3C001C1754 /* sample_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F06CBD319588F3B001C1754 /* sample_2.jpg */; };
-		7F06CBD61958FBE6001C1754 /* sample_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F06CBD51958FBE6001C1754 /* sample_3.jpg */; };
 		7F06CBD91958FF35001C1754 /* GUCFilterCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F06CBD81958FF35001C1754 /* GUCFilterCollectionViewCell.m */; };
 		7F06CBDC195900CF001C1754 /* filter.json in Resources */ = {isa = PBXBuildFile; fileRef = 7F06CBDB195900CF001C1754 /* filter.json */; };
+		7F06CBE21959E023001C1754 /* GUCUserFilterStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F06CBE11959E023001C1754 /* GUCUserFilterStore.m */; };
+		7F06CBE5195A5116001C1754 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F06CBE4195A5116001C1754 /* Main_iPad.storyboard */; };
+		7F06CBE7195A5E40001C1754 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F06CBE6195A5E40001C1754 /* MessageUI.framework */; };
+		7F06CBE9195A8C56001C1754 /* sample_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F06CBE8195A8C56001C1754 /* sample_2.jpg */; };
+		7F06CBED195A8D35001C1754 /* sample_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F06CBEC195A8D35001C1754 /* sample_3.jpg */; };
+		7F06CBF0195A8ED2001C1754 /* sample_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F06CBEF195A8ED2001C1754 /* sample_1.jpg */; };
 		7F8DE0AC19572F6F00A562C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8DE0AB19572F6F00A562C2 /* Foundation.framework */; };
 		7F8DE0AE19572F6F00A562C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8DE0AD19572F6F00A562C2 /* CoreGraphics.framework */; };
 		7F8DE0B019572F6F00A562C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8DE0AF19572F6F00A562C2 /* UIKit.framework */; };
@@ -30,7 +33,7 @@
 		7F8DE0E5195730E100A562C2 /* GUCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8DE0E4195730E100A562C2 /* GUCViewController.m */; };
 		7F8DE0E81957311600A562C2 /* GUCAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8DE0E71957311600A562C2 /* GUCAPIClient.m */; };
 		7F8DE0F01957B0FC00A562C2 /* GUCEditFilterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8DE0EF1957B0FC00A562C2 /* GUCEditFilterTableViewController.m */; };
-		7F8DE0F31957B65400A562C2 /* GUCGPUImageFilterFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8DE0F21957B65400A562C2 /* GUCGPUImageFilterFactory.m */; };
+		7F8DE0F31957B65400A562C2 /* MYGPUImageFilterFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8DE0F21957B65400A562C2 /* MYGPUImageFilterFactory.m */; };
 		7F8DE0F61957E14E00A562C2 /* GUCEditFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8DE0F51957E14E00A562C2 /* GUCEditFilterViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -45,12 +48,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7F06CBD119588F0C001C1754 /* sample_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample_1.jpg; sourceTree = "<group>"; };
-		7F06CBD319588F3B001C1754 /* sample_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample_2.jpg; sourceTree = "<group>"; };
-		7F06CBD51958FBE6001C1754 /* sample_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample_3.jpg; sourceTree = "<group>"; };
 		7F06CBD71958FF35001C1754 /* GUCFilterCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUCFilterCollectionViewCell.h; sourceTree = "<group>"; };
 		7F06CBD81958FF35001C1754 /* GUCFilterCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUCFilterCollectionViewCell.m; sourceTree = "<group>"; };
 		7F06CBDB195900CF001C1754 /* filter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = filter.json; sourceTree = "<group>"; };
+		7F06CBE01959E023001C1754 /* GUCUserFilterStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUCUserFilterStore.h; sourceTree = "<group>"; };
+		7F06CBE11959E023001C1754 /* GUCUserFilterStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUCUserFilterStore.m; sourceTree = "<group>"; };
+		7F06CBE4195A5116001C1754 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		7F06CBE6195A5E40001C1754 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		7F06CBE8195A8C56001C1754 /* sample_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample_2.jpg; sourceTree = "<group>"; };
+		7F06CBEC195A8D35001C1754 /* sample_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample_3.jpg; sourceTree = "<group>"; };
+		7F06CBEF195A8ED2001C1754 /* sample_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample_1.jpg; sourceTree = "<group>"; };
 		7F8DE0A819572F6F00A562C2 /* GPUImageCafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPUImageCafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8DE0AB19572F6F00A562C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7F8DE0AD19572F6F00A562C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -76,8 +83,8 @@
 		7F8DE0E71957311600A562C2 /* GUCAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUCAPIClient.m; sourceTree = "<group>"; };
 		7F8DE0EE1957B0FC00A562C2 /* GUCEditFilterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUCEditFilterTableViewController.h; sourceTree = "<group>"; };
 		7F8DE0EF1957B0FC00A562C2 /* GUCEditFilterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUCEditFilterTableViewController.m; sourceTree = "<group>"; };
-		7F8DE0F11957B65400A562C2 /* GUCGPUImageFilterFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUCGPUImageFilterFactory.h; sourceTree = "<group>"; };
-		7F8DE0F21957B65400A562C2 /* GUCGPUImageFilterFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUCGPUImageFilterFactory.m; sourceTree = "<group>"; };
+		7F8DE0F11957B65400A562C2 /* MYGPUImageFilterFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MYGPUImageFilterFactory.h; path = ../GPUImageCafe/MYGPUImageFilterFactory.h; sourceTree = "<group>"; };
+		7F8DE0F21957B65400A562C2 /* MYGPUImageFilterFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MYGPUImageFilterFactory.m; path = ../GPUImageCafe/MYGPUImageFilterFactory.m; sourceTree = "<group>"; };
 		7F8DE0F41957E14E00A562C2 /* GUCEditFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUCEditFilterViewController.h; sourceTree = "<group>"; };
 		7F8DE0F51957E14E00A562C2 /* GUCEditFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUCEditFilterViewController.m; sourceTree = "<group>"; };
 		94A6B6E2270149F78F5DFF30 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F06CBE7195A5E40001C1754 /* MessageUI.framework in Frameworks */,
 				7F8DE0AE19572F6F00A562C2 /* CoreGraphics.framework in Frameworks */,
 				7F8DE0B019572F6F00A562C2 /* UIKit.framework in Frameworks */,
 				7F8DE0AC19572F6F00A562C2 /* Foundation.framework in Frameworks */,
@@ -112,17 +120,34 @@
 		7F06CBDA19590098001C1754 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7F06CBD51958FBE6001C1754 /* sample_3.jpg */,
-				7F06CBD119588F0C001C1754 /* sample_1.jpg */,
-				7F06CBD319588F3B001C1754 /* sample_2.jpg */,
+				7F06CBEF195A8ED2001C1754 /* sample_1.jpg */,
+				7F06CBE8195A8C56001C1754 /* sample_2.jpg */,
 				7F06CBDB195900CF001C1754 /* filter.json */,
+				7F06CBEC195A8D35001C1754 /* sample_3.jpg */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		7F06CBE3195A50FE001C1754 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		7F06CBEE195A8D75001C1754 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7F8DE0F11957B65400A562C2 /* MYGPUImageFilterFactory.h */,
+				7F8DE0F21957B65400A562C2 /* MYGPUImageFilterFactory.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7F8DE09F19572F6F00A562C2 = {
 			isa = PBXGroup;
 			children = (
+				7F06CBEE195A8D75001C1754 /* Classes */,
 				7F06CBDA19590098001C1754 /* Resources */,
 				7F8DE0B119572F6F00A562C2 /* GPUImageCafe */,
 				7F8DE0D019572F6F00A562C2 /* GPUImageCafeTests */,
@@ -144,6 +169,7 @@
 		7F8DE0AA19572F6F00A562C2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7F06CBE6195A5E40001C1754 /* MessageUI.framework */,
 				7F8DE0AB19572F6F00A562C2 /* Foundation.framework */,
 				7F8DE0AD19572F6F00A562C2 /* CoreGraphics.framework */,
 				7F8DE0AF19572F6F00A562C2 /* UIKit.framework */,
@@ -156,11 +182,15 @@
 		7F8DE0B119572F6F00A562C2 /* GPUImageCafe */ = {
 			isa = PBXGroup;
 			children = (
+				7F06CBE3195A50FE001C1754 /* iPad */,
 				7F8DE0BA19572F6F00A562C2 /* GUCAppDelegate.h */,
 				7F8DE0BB19572F6F00A562C2 /* GUCAppDelegate.m */,
 				7F8DE0E61957311600A562C2 /* GUCAPIClient.h */,
 				7F8DE0E71957311600A562C2 /* GUCAPIClient.m */,
+				7F06CBE01959E023001C1754 /* GUCUserFilterStore.h */,
+				7F06CBE11959E023001C1754 /* GUCUserFilterStore.m */,
 				7F8DE0BD19572F6F00A562C2 /* Main.storyboard */,
+				7F06CBE4195A5116001C1754 /* Main_iPad.storyboard */,
 				7F8DE0C319572F6F00A562C2 /* Images.xcassets */,
 				7F8DE0B219572F6F00A562C2 /* Supporting Files */,
 				7F8DE0E019572FBE00A562C2 /* GUCFilterCollectionViewController.h */,
@@ -171,8 +201,6 @@
 				7F8DE0E4195730E100A562C2 /* GUCViewController.m */,
 				7F8DE0EE1957B0FC00A562C2 /* GUCEditFilterTableViewController.h */,
 				7F8DE0EF1957B0FC00A562C2 /* GUCEditFilterTableViewController.m */,
-				7F8DE0F11957B65400A562C2 /* GUCGPUImageFilterFactory.h */,
-				7F8DE0F21957B65400A562C2 /* GUCGPUImageFilterFactory.m */,
 				7F8DE0F41957E14E00A562C2 /* GUCEditFilterViewController.h */,
 				7F8DE0F51957E14E00A562C2 /* GUCEditFilterViewController.m */,
 			);
@@ -287,13 +315,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F06CBD219588F0C001C1754 /* sample_1.jpg in Resources */,
 				7F8DE0C419572F6F00A562C2 /* Images.xcassets in Resources */,
 				7F8DE0B619572F6F00A562C2 /* InfoPlist.strings in Resources */,
-				7F06CBD419588F3C001C1754 /* sample_2.jpg in Resources */,
-				7F06CBD61958FBE6001C1754 /* sample_3.jpg in Resources */,
+				7F06CBE5195A5116001C1754 /* Main_iPad.storyboard in Resources */,
+				7F06CBE9195A8C56001C1754 /* sample_2.jpg in Resources */,
+				7F06CBF0195A8ED2001C1754 /* sample_1.jpg in Resources */,
 				7F06CBDC195900CF001C1754 /* filter.json in Resources */,
 				7F8DE0BF19572F6F00A562C2 /* Main.storyboard in Resources */,
+				7F06CBED195A8D35001C1754 /* sample_3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,9 +374,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F8DE0F31957B65400A562C2 /* GUCGPUImageFilterFactory.m in Sources */,
+				7F8DE0F31957B65400A562C2 /* MYGPUImageFilterFactory.m in Sources */,
 				7F8DE0E5195730E100A562C2 /* GUCViewController.m in Sources */,
 				7F06CBD91958FF35001C1754 /* GUCFilterCollectionViewCell.m in Sources */,
+				7F06CBE21959E023001C1754 /* GUCUserFilterStore.m in Sources */,
 				7F8DE0F61957E14E00A562C2 /* GUCEditFilterViewController.m in Sources */,
 				7F8DE0F01957B0FC00A562C2 /* GUCEditFilterTableViewController.m in Sources */,
 				7F8DE0BC19572F6F00A562C2 /* GUCAppDelegate.m in Sources */,
@@ -482,7 +512,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GPUImageCafe/GPUImageCafe-Prefix.pch";
 				INFOPLIST_FILE = "GPUImageCafe/GPUImageCafe-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -496,7 +528,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GPUImageCafe/GPUImageCafe-Prefix.pch";
 				INFOPLIST_FILE = "GPUImageCafe/GPUImageCafe-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
