@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13615F2A1973770500654D66 /* MYGPUImageFilterFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 13615F291973770500654D66 /* MYGPUImageFilterFactory.m */; };
 		4CCFBA21AEA04F68BD32A8EA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A6B6E2270149F78F5DFF30 /* libPods.a */; };
 		7F06CBD91958FF35001C1754 /* GUCFilterCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F06CBD81958FF35001C1754 /* GUCFilterCollectionViewCell.m */; };
 		7F06CBDC195900CF001C1754 /* filter.json in Resources */ = {isa = PBXBuildFile; fileRef = 7F06CBDB195900CF001C1754 /* filter.json */; };
@@ -33,7 +34,6 @@
 		7F8DE0E5195730E100A562C2 /* GUCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8DE0E4195730E100A562C2 /* GUCViewController.m */; };
 		7F8DE0E81957311600A562C2 /* GUCAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8DE0E71957311600A562C2 /* GUCAPIClient.m */; };
 		7F8DE0F01957B0FC00A562C2 /* GUCEditFilterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8DE0EF1957B0FC00A562C2 /* GUCEditFilterTableViewController.m */; };
-		7F8DE0F31957B65400A562C2 /* MYGPUImageFilterFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8DE0F21957B65400A562C2 /* MYGPUImageFilterFactory.m */; };
 		7F8DE0F61957E14E00A562C2 /* GUCEditFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8DE0F51957E14E00A562C2 /* GUCEditFilterViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13615F281973770500654D66 /* MYGPUImageFilterFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYGPUImageFilterFactory.h; sourceTree = "<group>"; };
+		13615F291973770500654D66 /* MYGPUImageFilterFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYGPUImageFilterFactory.m; sourceTree = "<group>"; };
 		7F06CBD71958FF35001C1754 /* GUCFilterCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUCFilterCollectionViewCell.h; sourceTree = "<group>"; };
 		7F06CBD81958FF35001C1754 /* GUCFilterCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUCFilterCollectionViewCell.m; sourceTree = "<group>"; };
 		7F06CBDB195900CF001C1754 /* filter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = filter.json; sourceTree = "<group>"; };
@@ -83,8 +85,6 @@
 		7F8DE0E71957311600A562C2 /* GUCAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUCAPIClient.m; sourceTree = "<group>"; };
 		7F8DE0EE1957B0FC00A562C2 /* GUCEditFilterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUCEditFilterTableViewController.h; sourceTree = "<group>"; };
 		7F8DE0EF1957B0FC00A562C2 /* GUCEditFilterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUCEditFilterTableViewController.m; sourceTree = "<group>"; };
-		7F8DE0F11957B65400A562C2 /* MYGPUImageFilterFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MYGPUImageFilterFactory.h; path = ../GPUImageCafe/MYGPUImageFilterFactory.h; sourceTree = "<group>"; };
-		7F8DE0F21957B65400A562C2 /* MYGPUImageFilterFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MYGPUImageFilterFactory.m; path = ../GPUImageCafe/MYGPUImageFilterFactory.m; sourceTree = "<group>"; };
 		7F8DE0F41957E14E00A562C2 /* GUCEditFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUCEditFilterViewController.h; sourceTree = "<group>"; };
 		7F8DE0F51957E14E00A562C2 /* GUCEditFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUCEditFilterViewController.m; sourceTree = "<group>"; };
 		94A6B6E2270149F78F5DFF30 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,8 +138,8 @@
 		7F06CBEE195A8D75001C1754 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7F8DE0F11957B65400A562C2 /* MYGPUImageFilterFactory.h */,
-				7F8DE0F21957B65400A562C2 /* MYGPUImageFilterFactory.m */,
+				13615F281973770500654D66 /* MYGPUImageFilterFactory.h */,
+				13615F291973770500654D66 /* MYGPUImageFilterFactory.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -374,7 +374,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F8DE0F31957B65400A562C2 /* MYGPUImageFilterFactory.m in Sources */,
 				7F8DE0E5195730E100A562C2 /* GUCViewController.m in Sources */,
 				7F06CBD91958FF35001C1754 /* GUCFilterCollectionViewCell.m in Sources */,
 				7F06CBE21959E023001C1754 /* GUCUserFilterStore.m in Sources */,
@@ -384,6 +383,7 @@
 				7F8DE0B819572F6F00A562C2 /* main.m in Sources */,
 				7F8DE0E81957311600A562C2 /* GUCAPIClient.m in Sources */,
 				7F8DE0E219572FBE00A562C2 /* GUCFilterCollectionViewController.m in Sources */,
+				13615F2A1973770500654D66 /* MYGPUImageFilterFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

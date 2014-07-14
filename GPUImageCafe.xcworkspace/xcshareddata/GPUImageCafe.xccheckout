@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>55DB3208-9646-4445-B4B8-B1E4B5AB51F9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GPUImageCafe</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7B19917F-E172-4BDB-AB43-E0618AB7C342</key>
+		<string>https://github.com/nyankichi820/GPUImageCafe.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GPUImageCafe.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7B19917F-E172-4BDB-AB43-E0618AB7C342</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nyankichi820/GPUImageCafe.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7B19917F-E172-4BDB-AB43-E0618AB7C342</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7B19917F-E172-4BDB-AB43-E0618AB7C342</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GPUImageCafe</string>
+		</dict>
+	</array>
+</dict>
+</plist>
