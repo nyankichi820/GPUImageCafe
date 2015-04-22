@@ -79,38 +79,24 @@
 }
 
 -(IBAction)selectCompose:(id)sender{
-    UIActionSheet *actionSheet = [[UIActionSheet alloc] bk_initWithTitle:@"設定を保存"];
     __weak typeof(self) weakSelf = self;
-    
-    [actionSheet bk_addButtonWithTitle:@"設定をローカルに保存" handler:^{
+
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"設定" message:@"" preferredStyle:UIAlertControllerStyleActionSheet];
+    [alertController addAction:[UIAlertAction actionWithTitle:@"設定をローカルに保存" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
         [weakSelf saveFilter];
-    }];
-    
-
-    
-    if( [ MFMailComposeViewController canSendMail ] == YES )
-    {
-        [actionSheet bk_addButtonWithTitle:@"パラメーターをメールで送る" handler:^{
-                MFMailComposeViewController * controller = [  [ MFMailComposeViewController alloc ] init ] ;
-                [ controller setSubject:@"フィルターパラメーター"];
-            
-                [controller addAttachmentData:[[[MYGPUImageFilterFactory alloc] init] createFilterParameterJSONDataWithParameter:self.filterParameter]  mimeType:@"text/json" fileName:@"filter.json"];
-                controller.mailComposeDelegate = self;
-            
-                [ self presentModalViewController:controller animated:YES ];
-
-        }];
-    }
-
-    
-    [actionSheet bk_setCancelButtonWithTitle:@"キャンセル" handler:^{
+    }]];
+    [alertController addAction:[UIAlertAction actionWithTitle:@"パラメーターをメールで送る" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+        MFMailComposeViewController * controller = [  [ MFMailComposeViewController alloc ] init ] ;
+        [ controller setSubject:@"フィルターパラメーター"];
         
-    }];
+        [controller addAttachmentData:[[[MYGPUImageFilterFactory alloc] init] createFilterParameterJSONDataWithParameter:self.filterParameter]  mimeType:@"text/json" fileName:@"filter.json"];
+        controller.mailComposeDelegate = weakSelf;
+
+        [ weakSelf presentModalViewController:controller animated:YES ];
+    }]];
+    [alertController addAction:[UIAlertAction actionWithTitle:@"キャンセル" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {}]];
     
-    [actionSheet showInView:self.view];
-    
-    
-    
+    [self presentViewController:alertController animated:YES completion:nil];
 }
 
 - (void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error
